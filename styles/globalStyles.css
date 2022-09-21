@@ -5,11 +5,36 @@
 }
 
 :root{
-    --color-primary: /* definir */;
+    --color-primary:#E8E5DA;
+    --color-secondary: #9EB7E5;
     --color-grey-1: #191C1F;
     --color-grey-2: #212529;
     --color-grey-3: #343A40;
     --color-grey-4: #ADB5BD;
     --color-grey-5: #CED4DA;
     --color-grey-6: #EDF2FF;
+}
+.primary{
+    background-color:var(--color-primary) ;
+}
+.secondary{
+    background-color:var(--color-secondary) ;
+}
+.grey1{
+    background-color:#191C1F ;
+}
+.grey2{
+    background-color:#212529 ;
+}
+.grey3{
+    background-color:#343A40 ;
+}
+.grey4{
+    background-color:#ADB5BD ;
+}
+.grey5{
+    background-color:#CED4DA ;
+}
+.grey6{
+    background-color:#EDF2FF ;
 }

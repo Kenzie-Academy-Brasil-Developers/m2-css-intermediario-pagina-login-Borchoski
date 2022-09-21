@@ -1,0 +1,18 @@
+.textNone{
+    text-decoration: none;
+}
+.borderNone{
+    border: none;
+}
+.outline0{
+    outline: 0;
+}
+.colorW{
+    color: white;
+}
+.colorGrey6{
+    color: var(--color-grey-6);
+}
+.fontSize17{
+    font-size: 17px;
+}

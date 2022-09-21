@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="../../styles/globalStyles.css">
+    <link rel="stylesheet" href="../../styles/display.css">
+    <link rel="stylesheet" href="../../styles/text.css">
+    <link rel="stylesheet" href="../../styles/sizes.css">
+    <link rel="stylesheet" href="../../styles/padding-border-margin.css">
+    <link rel="shortcut icon" href="../../img/img2.png" type="image/x-icon">
+    <title>Login</title>
+</head>
+<body class="justifyAlign flexCol grey2">
+    <header class="alignAround">
+        <section class="alignBetween padding8 borderR4">
+            <img class="heigthFull borderR4" src="../../img/img3.png" alt="">
+            <h1>A maior competição de fisiculturismo profissional do mundo.</h1>
+            <nav class="textNone displayFlex">
+                <a href="https://mrolympia.com"><h3>Home</h3></a>
+                <a href="https://pt.wikipedia.org/wiki/Mr._Olympia" target="_blank"><h3>About us</h3></a>
+            </nav>
+        </section>
+    </header>
+    <main class="flexCol displayAlign relative">
+        <div class="displayFlex margin72">
+            <section class="section1 primary justifyAlign flexCol ">
+                <h1 class="padding16">Sobre o Mr. Olympia:</h1>
+                <p class="fontSize17">Mr. Olympia é o título concedido ao vencedor do concurso de fisiculturismo profissional masculino no Olympia Fitness & Performance Weekend de Joe Weider.</p>
+                <p class="fontSize17">O atual bicampeão do Mister Olympia, Ramy, defenderá seu título no dia 16 de dezembro.</p>
+                <p id="p">Faça o login ao lado para se candidatar a competição</p>
+            </section>
+            <form class="section2 grey6 padding8 relative">
+                <h3 class="login grey3 borderR4 colorGrey6 login boxShadow1">Login</h3>
+                <section class="justifyAlign flexCol padding8">
+                    <input class="borderNone grey5 outline0 borderR4 padding4 boxShadow1" type="email" placeholder="Insira aqui seu E-mail" required="true">
+                    <input class="borderNone grey5 outline0 borderR4 padding4 boxShadow1" type="password" placeholder="Insira aqui sua senha" required="true">
+                    <button id="butEsqueceu" class="but1 borderNone grey3 borderR4 padding4 colorGrey6 boxShadow1">Esqueceu a senha?</button>
+                </section>
+                <button class="but2 padding8 borderNone grey4 borderR4 boxShadow1" type="submit" >Login</button>
+            </form>
+        </div>  
+    </main>
+    <div id="modalTotal" class="modalTotal">
+        <form id="divModal" class="esqueceu grey6 margin16 borderR4">
+            <section class="alignBetween widthFull">
+                <h3>Esqueceu a senha?</h3>
+                <button id="butX" class="but3 grey6">X</button>
+            </section>
+            <p class="fontSize17 marginBot32">Basta inserir seu e-mail que enviaremos uma mensagem para recuperar sua senha:</p>
+            <input class="borderNone grey5 outline0 borderR4 padding4 widthFull" type="email" placeholder="Insira aqui seu email">
+            <button id="butRecuperar" class="but2 padding8 borderNone grey4 borderR4 widthFull" type="submit">Recuperar</button>
+        </form>
+    </div>
+    <script src="/scripts/modal.js"></script>
+</body>
+</html>

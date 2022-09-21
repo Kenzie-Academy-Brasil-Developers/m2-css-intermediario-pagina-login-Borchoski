@@ -1,0 +1,45 @@
+.padding4{
+    padding: 4px;
+}
+.padding8{
+    padding: 8px;
+}
+.padding16{
+    padding: 16px;
+}
+.padding32{
+    padding: 32px;
+}
+.padding0{
+    padding: 4px 16px;
+}
+.borderR4{
+    border-radius: 4px;
+}
+.borderR8{
+    border-radius:8px ;
+}
+.borderR16{
+    border-radius: 16px;
+}
+.margin8{
+    margin: 8px;
+}
+.margin16{
+    margin: 16px;
+}
+.margin32{
+    margin: 32px;
+}
+.margin72{
+    margin: 72px;
+}
+.marginBot16{
+    margin-bottom: 16px;
+}
+.marginBot32{
+    margin-bottom: 32px;
+}
+.boxShadow1{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 4px, rgba(0, 0, 0, 0.2) 0px 7px 13px -3px, rgba(0, 0, 0, 0.1) 0px -3px 0px inset;
+}

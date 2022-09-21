@@ -1,0 +1,33 @@
+.displayFlex{
+    display: flex;
+}
+.displayAlign{
+    display: flex;
+    align-items: center;
+}
+.displayJustify{
+    display: flex;
+    justify-content: center;
+}
+.justifyAlign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.alignAround{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.alignBetween{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flexCol{
+    display: flex;
+    flex-direction: column;
+}
+.relative{
+    position: relative;
+}

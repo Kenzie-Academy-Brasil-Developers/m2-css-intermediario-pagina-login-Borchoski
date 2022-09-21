@@ -1,1 +1,97 @@
-/* Desenvolva seu código aqui... */
+header{
+    width: 90%;
+    height: 80px;
+    margin: 20px 0px;
+}
+header section{
+    width: 90%;
+    height: 80px;
+    background-color: var(--color-grey-3);
+}
+header h1{
+    background-color: var(--color-grey-3);
+    color: var(--color-grey-5);
+}
+header nav a{
+    color: var(--color-grey-3);
+}
+header nav a h3{
+    background-color: var(--color-grey-3);
+    color: var(--color-grey-5);
+    padding: 0px 10px;
+    text-decoration: underline;
+}
+main div{
+    width: 714px;
+    height: 407px;
+}
+.section1{
+    position: relative;
+    width: 45%;
+    padding: 0px 8px;
+    padding-bottom: 100px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.section1 p{
+    padding: 8px 0px;
+}
+.section1 #p{
+    position: absolute;
+    left: 8px;
+    bottom: 15px;
+}
+.section2{
+    width: 55%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+section input, input{
+    width: 240px;
+    height: 44px;
+    margin-bottom: 15px;
+}
+.but1{
+    position: absolute;
+    bottom: 132px;
+    right: 75px;
+}
+.but2{
+    width: 240px;
+    height: 44px;
+}
+button{
+    cursor: pointer;
+}
+.login{
+    padding: 4px 32px;
+}
+.esqueceu{
+    width: 346px;
+    height: 312px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 28px 22px;
+    gap: 15px;
+}
+.but3{
+    border: none;
+    padding: 4px;
+}
+.modalTotal{
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    position: fixed;
+}
+.modal{
+    display: flex;
+}
